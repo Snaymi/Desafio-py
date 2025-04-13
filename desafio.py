@@ -16,7 +16,7 @@ def menu():
 
 
 def depositar(saldo, valor, extrato, /):
-    if valor > 0:
+    if valor > 1:
         saldo += valor
         extrato += f"Depósito:\tR$ {valor:.2f}\n"
         print("\n=== Depósito realizado com sucesso! ===")
